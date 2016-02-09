@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(new ParkingListFragment(), "Parkings");
-        adapter.addFragment(new ParkingListFragment(), "Mapa");
+        adapter.addFragment(new MapFragment(), "Mapa");
         viewPager.setAdapter(adapter);
     }
 
