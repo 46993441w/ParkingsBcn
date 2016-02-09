@@ -15,11 +15,11 @@ import com.firebase.ui.FirebaseListAdapter;
 /**
  * A placeholder fragment containing a simple view.
  */
-public class MainActivityFragment extends Fragment {
+public class ParkingListFragment extends Fragment {
 
     private FirebaseListAdapter<Park> adapter;
 
-    public MainActivityFragment() {
+    public ParkingListFragment() {
     }
 
     @Override

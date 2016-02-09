@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    tools:context="org.ecaib.parkingsbcn.MainActivityFragment"
+    tools:context=".ParkingListFragment"
     tools:showIn="@layout/activity_main">
 
     <ListView
